@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Do not edit modules/_sprite directly as it is generated automaticly by gulp. Instead edit gulp/templates/sprites */
 
 
@@ -5,6 +6,14 @@
   .icon {
     background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
   }
+=======
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+    .icon {
+      background-image: url('/assets/images/sprites/sprite-0f9283b3.svg');
+    }
+>>>>>>> testimonials
 
   .icon--clear-view-escapes {
     width: 142.4px;

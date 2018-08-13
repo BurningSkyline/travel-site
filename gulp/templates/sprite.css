@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Do not edit modules/_sprite directly as it is generated automaticly by gulp. Instead edit gulp/templates/sprites */
 
 
@@ -7,6 +8,16 @@
   .icon {
     background-image: url('/assets/images/sprites/{{{sprite}}}');
   }
+=======
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+{{#shapes}}
+  {{#first}}
+    .icon {
+      background-image: url('/assets/images/sprites/{{{sprite}}}');
+    }
+>>>>>>> testimonials
   {{/first}}
 
   .icon--{{base}} {
@@ -14,4 +25,8 @@
     height: {{height.outer}}px;
     background-position: {{position.relative.xy}};
   }
+<<<<<<< HEAD
 {{/shapes}}
+=======
+{{/shapes}}
+>>>>>>> testimonials
