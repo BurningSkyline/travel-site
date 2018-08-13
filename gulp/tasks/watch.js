@@ -14,9 +14,10 @@ gulp.task('watch', function(){
 		browserSync.reload();
 	});
 
-	gulp.watch('./app/assets/styles/**/*.css', function(){
-		gulp.start('cssInject');
-	});
+});
+
+gulp.watch('./app/assets/styles/**/*.css', function(){
+	gulp.start('cssInject');
 });
 
 gulp.task('cssInject', ['styles'], function(){
